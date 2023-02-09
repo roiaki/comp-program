@@ -1,21 +1,22 @@
 // 入力1行目は1つの数字、2列目以降は2つの数字
 let list = require('fs').readFileSync('/dev/stdin', 'utf8').split("\n");
 let array = list[1].split(" ");
+let N = parseInt(list[0]);
 
-let a = parseInt(list[0]);
-let b = array[0];
-let c = array[1];
+// console.log(array);
 
-
-array.reverse();
-for(let i = 0; i < a; i++) {
-  process.stdout.write(array[i] + " ");
-  if(i == a - 1) {
-    process.stdout.write("\n");
-  }
+let newarray = [];
+for(let i = N - 1; i >= 0; i--) {
+  newarray.push(array[i]); 
 }
 
-
-
+for(let j = 0; j < N; j++) {
+  if(j < N - 1) {
+    process.stdout.write(newarray[j] + " ");
+  } else {
+    process.stdout.write(newarray[j] + "\n");
+  }
+  
+}
 
 
