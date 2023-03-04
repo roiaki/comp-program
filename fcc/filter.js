@@ -112,16 +112,10 @@ const watchList = [
   }
 ];
 
+// この行の下にあるコードのみを変更
 
-let ratings = [];
-ratings = watchList.map(function(value) {
-  // console.log(value["Title"]);
-  ratings = ({Title: value["Title"], Type: value["Type"]});
-//  console.log(ratings);
-  // ratings.push("ab");
-  return ratings;
-})
+const filteredList = "";
+
 // この行の上にあるコードのみを変更
-console.log(JSON.stringify(ratings));
-console.log(ratings)
-// console.log(watchList);
+
+console.log(filteredList);
