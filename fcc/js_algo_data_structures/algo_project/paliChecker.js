@@ -17,7 +17,9 @@ function palindrome(str) {
   for(let i = 0; i < midNumber; i++) {
     // console.log(str1[i], str1[len - 1], str1[len]);
     // console.log(str1[0]);
+    console.log(str1[i], str1[len - 1]);
     if(str1[i] != str1[len - 1]) {
+      
       return false;
     }
     len--;
