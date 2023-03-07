@@ -1,3 +1,5 @@
+// 文字列の省略
+
 function truncateString(str, num) {
   // console.log(str.length);
   let ans;

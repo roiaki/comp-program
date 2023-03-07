@@ -1,3 +1,5 @@
+// 偽値を取り除く「用心棒」
+
 function bouncer(arr) {
   let storageArr = arr;
   let newArr = [];

@@ -1,3 +1,5 @@
+// 条件を満たす要素の抽出
+
 function findElement(arr, func) {
   let num = 0;
   for(let i = 0; i < arr.length; i++) {

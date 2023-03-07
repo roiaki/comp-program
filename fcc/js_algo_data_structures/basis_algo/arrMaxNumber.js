@@ -1,3 +1,5 @@
+// 各配列の最大数値を返
+
 function largestOfFour1(arr) {
   // console.log(arr.length);
   // console.log(Math.max(arr[0][0], arr[0][1], arr[0][2], arr[0][3]));

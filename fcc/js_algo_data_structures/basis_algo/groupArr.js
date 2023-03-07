@@ -1,3 +1,5 @@
+// 配列をグループに分割する
+
 function chunkArrayInGroups(arr, size) {
 
   let stArr = arr;

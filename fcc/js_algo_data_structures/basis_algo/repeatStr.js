@@ -1,3 +1,5 @@
+// 同じ文字列の繰り返し
+
 function repeatStringNumTimes(str, num) {
   let ans = "";
   for(let i = 0; i < num; i++) {

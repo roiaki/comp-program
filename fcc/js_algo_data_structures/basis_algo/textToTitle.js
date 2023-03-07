@@ -1,3 +1,4 @@
+// 文章をタイトルケースに変換
 // 最初の1文字を大文字残りを小文字へ
 function titleCase(str) {
   let arr = str.split(" ");

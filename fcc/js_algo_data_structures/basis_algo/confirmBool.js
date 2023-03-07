@@ -1,3 +1,5 @@
+// ブール型の確認
+
 function booWho1(bool) {
   if(typeof bool === "boolean") {
     return true;

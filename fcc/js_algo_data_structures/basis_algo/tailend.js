@@ -1,3 +1,5 @@
+// 末尾の一致判定
+
 function confirmEnding(str, target) {
   let strLen = str.length;
   let targetLen = target.length;

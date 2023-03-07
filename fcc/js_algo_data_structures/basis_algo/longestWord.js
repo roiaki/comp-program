@@ -1,3 +1,5 @@
+// 文字列で最も長い単語の長さを取得する
+
 function findLongestWordLength(str) {
   let arr = str.split(" ");
   // console.log(arr);

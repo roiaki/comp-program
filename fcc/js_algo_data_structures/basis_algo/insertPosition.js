@@ -1,3 +1,5 @@
+// 挿入位置
+
 function getIndexToIns(arr, num) {
 
   let newArr = arr;

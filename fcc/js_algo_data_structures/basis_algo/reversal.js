@@ -1,3 +1,5 @@
+// 文字列の反転
+
 // function reverseString(str) {
 //   let arr = str.split("");
 //   let ans = [];
